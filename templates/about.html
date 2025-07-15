@@ -1,1 +1,24 @@
 {% extends "base.html" %}
+
+{% block content %}
+<div class="container py-5">
+    <div class="row justify-content-center">
+        <div class="col-md-8 text-center">
+            <h1 class="display-4 mb-4">Welcome to the Wild West!</h1>
+            <img src="https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=800&q=80" alt="Western Landscape" class="img-fluid rounded mb-4" style="max-height: 350px; object-fit: cover;">
+            <p class="lead mb-4">Saddle up, partner! This is the About page for our Western-themed site. Here, the spirit of the frontier lives on—where cowboys, horses, and the open prairie meet modern web technology.</p>
+            <hr>
+            <h2 class="mb-3">Our Story</h2>
+            <p>Inspired by the legends of the Old West, our team set out to create a digital experience that captures the adventure, freedom, and rugged beauty of the frontier. Whether you’re here to explore, learn, or just enjoy the view, we’re glad to have you ride along.</p>
+            <h3 class="mt-4">What Makes Us Western?</h3>
+            <ul class="list-unstyled mb-4">
+                <li>🤠 Cowboy spirit</li>
+                <li>🐎 Fast as a wild mustang</li>
+                <li>🌵 Open and welcoming like the prairie</li>
+                <li>🌄 Inspired by sunsets and adventure</li>
+            </ul>
+            <a href="/" class="btn btn-warning btn-lg mt-3"><i class="fas fa-home"></i> Back to Home</a>
+        </div>
+    </div>
+</div>
+{% endblock %}
