@@ -1,6 +1,6 @@
 from django.shortcuts import render
+from httpx import Request
 
-# Create your views here.
 
 
 def home(request):
