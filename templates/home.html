@@ -1,35 +1,37 @@
 {% extends "base.html" %}
 
+{% load static %}
+
 {% block content %}
 <div class="container py-5">
     <div class="row justify-content-center">
         <div class="col-md-10 text-center">
-            <h1 class="display-3 mb-4">Howdy, Partner!</h1>
-            <img src="https://images.unsplash.com/photo-1500534314209-a25ddb2bd429?auto=format&fit=crop&w=900&q=80" alt="Western Home" class="img-fluid rounded mb-4" style="max-height: 350px; object-fit: cover;">
-            <p class="lead mb-4">Welcome to the digital frontier. This is your home on the range—a place where the code runs wild and the sunsets are always golden. Whether you’re a cowboy coder, a prairie designer, or just passing through, you’re always welcome at our campfire.</p>
+            <h1 class="display-3 mb-4">สวัสดีครับอ้าย!</h1>
+            <img src="{% static 'assets/img/wild mount.249Z.png' %}" alt="Wild Mount" class="img-fluid rounded mb-4" style="max-height: 350px; object-fit: cover;">
+            <p class="lead mb-4">ยินดีต้อนรับสู่แนวหน้าดิจิทัล นี่คือบ้านของคุณในทุ่งหญ้า—สถานที่ที่โค้ดวิ่งอย่างอิสระและพระอาทิตย์ตกดินเป็นสีทองเสมอ</p>
             <hr>
             <div class="row mt-5">
                 <div class="col-md-4 mb-4">
                     <div class="card h-100 border-warning">
                         <div class="card-body">
-                            <h5 class="card-title"><i class="fas fa-hat-cowboy"></i> Meet the Team</h5>
-                            <p class="card-text">Our posse is made up of the sharpest shooters in web development, ready to wrangle any bug or challenge that comes our way.</p>
+                            <h5 class="card-title"><i class="fas fa-hat-cowboy"></i> พบกับทีมงาน</h5>
+                            <p class="card-text">ทีมงานของเราประกอบด้วยผู้เชี่ยวชาญด้านการพัฒนาเว็บที่พร้อมจะจัดการกับข้อผิดพลาดหรือความท้าทายใดๆ ที่เข้ามา</p>
                         </div>
                     </div>
                 </div>
                 <div class="col-md-4 mb-4">
                     <div class="card h-100 border-warning">
                         <div class="card-body">
-                            <h5 class="card-title"><i class="fas fa-horse"></i> Our Mission</h5>
-                            <p class="card-text">To bring the spirit of the Wild West to the web—fast, free, and full of adventure. We believe in open code and open skies.</p>
+                            <h5 class="card-title"><i class="fas fa-horse"></i> ภารกิจของเรา</h5>
+                            <p class="card-text">เพื่อส่งต่อจิตวิญญาณของ แดนตะวันตก และเต็มไปด้วยการผจญภัย เราเชื่อในความคิดที่เปิดกว้างและท้องฟ้าที่สดใส</p>
                         </div>
                     </div>
                 </div>
                 <div class="col-md-4 mb-4">
                     <div class="card h-100 border-warning">
                         <div class="card-body">
-                            <h5 class="card-title"><i class="fas fa-star"></i> Join the Journey</h5>
-                            <p class="card-text">Ready to ride with us? Check out our About and Contact pages to learn more or send us a message. The West is waiting!</p>
+                            <h5 class="card-title"><i class="fas fa-star"></i> เข้าร่วมการเดินทาง</h5>
+                            <p class="card-text">พร้อมที่จะขี่ไปกับเราหรือยัง? ตรวจสอบหน้าเกี่ยวกับและติดต่อของเราเพื่อเรียนรู้เพิ่มเติมหรือส่งข้อความถึงเรา แดนตะวันตกกำลังรอคุณอยู่!</p>
                         </div>
                     </div>
                 </div>

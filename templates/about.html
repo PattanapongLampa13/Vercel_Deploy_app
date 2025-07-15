@@ -1,23 +1,34 @@
 {% extends "base.html" %}
 
+{% load static %}
+
 {% block content %}
 <div class="container py-5">
     <div class="row justify-content-center">
         <div class="col-md-8 text-center">
-            <h1 class="display-4 mb-4">Welcome to the Wild West!</h1>
-            <img src="https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=800&q=80" alt="Western Landscape" class="img-fluid rounded mb-4" style="max-height: 350px; object-fit: cover;">
-            <p class="lead mb-4">Saddle up, partner! This is the About page for our Western-themed site. Here, the spirit of the frontier lives on—where cowboys, horses, and the open prairie meet modern web technology.</p>
+            <h1 class="display-4 mb-4">แนะนำตัวนายอำเภอ</h1>
+            <img src="{% static 'assets/img/suptown.000Z.png' %}" alt="Sheriff" class="img-fluid rounded mb-4" style="max-height: 350px; object-fit: cover;">
+            <p class="lead mb-4">สวัสดีทุกท่าน!<br>ขอต้อนรับสู่เมืองแดนตะวันตกแห่งนี้<br>ผม <strong>พัฒนพงศ์ ลำภา</strong> นายอำเภอประจำเมือง ผู้ดูแลความสงบเรียบร้อยและความสนุกสนานในโลกดิจิทัลแห่งนี้</p>
             <hr>
-            <h2 class="mb-3">Our Story</h2>
-            <p>Inspired by the legends of the Old West, our team set out to create a digital experience that captures the adventure, freedom, and rugged beauty of the frontier. Whether you’re here to explore, learn, or just enjoy the view, we’re glad to have you ride along.</p>
-            <h3 class="mt-4">What Makes Us Western?</h3>
-            <ul class="list-unstyled mb-4">
-                <li>🤠 Cowboy spirit</li>
-                <li>🐎 Fast as a wild mustang</li>
-                <li>🌵 Open and welcoming like the prairie</li>
-                <li>🌄 Inspired by sunsets and adventure</li>
-            </ul>
-            <a href="/" class="btn btn-warning btn-lg mt-3"><i class="fas fa-home"></i> Back to Home</a>
+            <h2 class="mb-3">ประวัติโดยย่อ</h2>
+            <p>ผมเติบโตมากับกลิ่นอายของทุ่งหญ้าและเสียงม้าควบ วิถีคาวบอยสอนให้ผมกล้าคิด กล้าทำ และไม่กลัวความท้าทาย<br>วันนี้ผมนำจิตวิญญาณนั้นมาสร้างสรรค์เว็บไซต์นี้ เพื่อให้ทุกคนได้สัมผัสความอบอุ่นและเสรีภาพแบบตะวันตก</p>
+            
+            <div class="card mx-auto mb-4" style="max-width: 500px;">
+                <div class="card-header bg-warning text-dark">
+                    <strong>About Me</strong>
+                </div>
+                <div class="card-body">
+                    <p class="mb-2"><strong>ชื่อ:</strong> พัฒนพงศ์ ลำภา</p>
+                    <p class="mb-0"><strong>คณะ:</strong> ศิลปศาสตร์และวิทยาศาสตร์</p>
+                    <p class="mb-0"><strong>สาขา:</strong> วิทยาการคอมพิวเตอร์</p>
+                    <p class="mb-0"><strong>รหัสนักศึกษา:</strong> 6712732113</p>
+                    <p class="mb-2"><strong>ตำแหน่ง:</strong> นายอำเภอแห่งแดนตะวันตก</p>
+                    <p class="mb-2"><strong>ความถนัด:</strong> พัฒนาเว็บไซต์, แก้ปัญหา, สร้างสรรค์ไอเดียใหม่ ๆ</p>
+                    <p class="mb-2"><strong>คติประจำใจ:</strong> "อย่ากลัวที่จะเริ่มต้นใหม่ เพราะทุกการเดินทางคือการผจญภัยครั้งใหม่เสมอ"</p>
+                </div>
+            </div>
+
+            <a href="/" class="btn btn-warning btn-lg mt-3"><i class="fas fa-home"></i> กลับสู่หน้าแรก</a>
         </div>
     </div>
 </div>
